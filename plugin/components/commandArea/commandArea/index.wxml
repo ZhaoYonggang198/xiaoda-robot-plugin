@@ -1,0 +1,33 @@
+  <form report-submit="true" bindsubmit="sendMessage" class="footer">
+    <view class="weui-flex primary-color light">
+      <view class="placeholder">
+        <button class="input-widget form-control primary-color" size="small" bindtap="changeVoiceMode" wx:if="{{!voiceMode}}">
+          <view class="icon iconfont icon-translation"></view>
+        </button>
+        <button class="input-widget form-control primary-color" size="small" bindtap="changeVoiceMode" wx:else>
+          <view class="icon iconfont icon-keyboard"></view>
+        </button>
+      </view>
+      <block>
+        <view class="weui-flex__item"  wx:if="{{!voiceMode}}">
+
+          <input class="word-textarea primary-color revert textarea-style-2"  adjust-position="true"
+          value="{{currentMessage}}" cursorSpacing="14" 
+          maxlength="{{textLength}}" placeholder="{{placehodlerText}}" type="{{textType}}"
+          confirm-type="send" confirm-hold="true" 
+          bindinput="valueInput" bindconfirm="confirm" bindfocus="textFocus" bindblur="textBlur"/>
+
+        </view>
+        <view class="weui-flex__item" wx:else>
+          <record-button bindmsgSendStatus="msgSendStatus"></record-button>
+        </view>
+      </block>
+    <view class="placeholder">
+    <button class="input-widget form-control secondary-color buttonSend {{(currentMessage=='') && !items.length?'disabled':''}}" size="small" formType="submit" 
+      disabled="{{(currentMessage=='') && !items.length}}">
+      <view class="icon iconfont icon-arrows"></view>
+    </button>
+    </view>
+    </view>
+    <device-padding></device-padding>
+  </form>

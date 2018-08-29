@@ -1,0 +1,9 @@
+<block>
+  <record-status recordStatus="{{recordStatus}}"></record-status>
+  <button class="input-widget form-control secondary-color {{recordStatus=='readyToRecord'?'':'dark'}}"
+            bindtouchstart="startRecord"
+            bindtouchcancel="cancelRecord"
+            bindtouchmove="recordOperation"
+            bindtouchend="stopRecord">
+              {{recordStatus=='readyToRecord'?'按住 说话':(recordStatus === 'readyToCancel'?'松开手指，取消发送':'松开 结束')}}</button>
+</block>

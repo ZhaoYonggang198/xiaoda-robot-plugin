@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "bot-say-text": "../text/index",
+    "bot-say-button-list": "../buttonList/index",
+    "bot-say-image": "../image/index"
+  }
+}

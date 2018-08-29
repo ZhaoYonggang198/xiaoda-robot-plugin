@@ -1,0 +1,7 @@
+{
+  "publicComponents": {
+    "list": "components/list/list",
+    "chat-page": "components/chatPage/index"
+  },
+  "main": "index.js"
+}

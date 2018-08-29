@@ -1,0 +1,24 @@
+@import '/static/style/weui.wxss';
+@import '/static/style/main.wxss';
+@import '/static/font/iconfont.wxss';
+
+.record-status {
+  position: fixed;
+  top: 300rpx;
+  left: 225rpx;
+  width: 300rpx;
+  height: 375rpx;
+  background-color: rgba(0 , 0, 0, 0.5);
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.record-status .iconfont {
+  font-size: 200rpx;
+}
+
+.record-status .text {
+  font-size: 28rpx;
+  width: autho
+}

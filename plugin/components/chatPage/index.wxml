@@ -1,0 +1,31 @@
+<view class="page">
+  <view class="content" style="flex-direction: column">
+    <scroll-view scroll-y='true' scroll-into-view="{{scrollToView}}" style="height: 100%" scroll-with-animation>
+      <view class="padding-top-64">
+        <block wx:for="{{messageList}}" wx:for-item="messages" wx:key="index">
+          <view id="{{index}}">
+            <message-item lastBotMsg="{{index==(messageList.length-1)&&messages.to!==undefined}}"
+                      messages="{{messages}}"
+                      bindrenderComplete="renderComplete"
+                      bindrenderUpdate="renderUpdate"
+                      binditemLoad="scollToBottom"
+                      bindpreviewImage="previewImage"
+                      bindbuttonListEvent="handleButtonListEvent"/>
+          </view>
+          <view id="{{'bottom' + index}}"></view>
+        </block>
+        <block wx:if="{{localMsgSending}}">
+          <user-say-sending/>
+        </block>
+        <view id="bottom"></view>
+      </view>
+    </scroll-view>
+  </view>
+  <view class="footer">
+    <select-box  wx:if="{{displayFinish}}" messageAction="{{activeBoxMsg}}"/>
+    <command-area  bindmsgSendStatus="handleMsgSendStatus"
+        inputPromt="{{activeInputPromtMsg}}"
+        displayFinish="{{displayFinish}}"/>
+  </view>
+</view>
+

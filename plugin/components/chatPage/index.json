@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "message-item": "../messageItem/index",
+    "command-area": "../commandArea/commandArea/index",
+    "select-box": "../commandArea/selectBox/index",
+    "user-say-sending": "../userSay/sending/index"
+  }
+}

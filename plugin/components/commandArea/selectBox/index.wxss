@@ -1,0 +1,19 @@
+@import '/static/style/weui.wxss';
+@import '/static/style/main.wxss';
+@import '/static/font/iconfont.wxss';
+
+.select-box{
+  /*background: #fff;*/
+  width: 100%;
+  overflow:auto;
+  /*position: absolute;*/
+  /*bottom:0*/
+}
+.top_110{
+  /*position: absolute;*/
+  top: -110rpx;
+}
+.top_444{
+  /*position: absolute;*/
+  top: -444rpx;
+}

@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "bot-avatar": "../botAvatar/index",
+    "divider": "../divider/index",
+    "loading": "../loading/index",
+    "bot-say-message": "../botSay/message/index",
+    "bot-say-receiving": "../botSay/receiving/index",
+    "user-say-message": "../userSay/message/index"
+  }
+}

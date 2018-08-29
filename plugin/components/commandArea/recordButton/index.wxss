@@ -1,0 +1,10 @@
+@import '/static/style/weui.wxss';
+@import '/static/style/main.wxss';
+
+.input-widget {
+  margin: 0!important;
+  height: 100%;
+  max-height: 80rpx;
+  line-height: 80rpx;
+  box-sizing: border-box;
+}

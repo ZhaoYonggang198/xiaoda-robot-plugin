@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "user-say-radio-reply": "../radioReply/index",
+    "user-say-text": "../text/index",
+    "user-say-speech": "../speech/index",
+    "user-say-image": "../image/index",
+    "user-say-checkbox-reply": "../checkboxReply/index"
+  }
+}

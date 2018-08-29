@@ -1,0 +1,24 @@
+<view class="record-status" wx:if="{{recordStatus && recordStatus!='readyToRecord'}}">
+  <block wx:if="{{recordStatus=='inRecording'}}">
+    <view class="weui-flex" style="width: 300rpx">
+      <view class="weui-flex__item">
+        <view class="icon iconfont icon-translation_fill" style="color: white; float:right;"></view>
+      </view>
+      <view class="weui-flex__item">
+        <spinner></spinner>
+      </view>
+    </view>
+    <view class="text" style="width: 300rpx;text-align: center">
+
+        手指上滑，取消发送
+    </view>
+  </block>
+  <block wx:else>
+    <view>
+      <view class="icon iconfont icon-undo"></view>
+    </view>
+    <view class="warn-color light text">
+      松开手指，取消发送
+    </view>
+  </block>
+</view>

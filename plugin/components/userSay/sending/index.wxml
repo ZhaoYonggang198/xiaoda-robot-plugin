@@ -1,0 +1,10 @@
+<view class="weui-flex">
+  <view class="weui-flex__item">
+    <view class="outgoing right-item">
+      <loading></loading>
+    </view>
+  </view>
+  <view class="user-avatar" wx:if="{{userAuthed}}">
+    <open-data type="userAvatarUrl" />
+  </view>
+</view>

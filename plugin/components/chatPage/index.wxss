@@ -1,0 +1,18 @@
+@import '/static/style/weui.wxss';
+@import '/static/style/main.wxss';
+
+.page {
+  display:flex;
+  height:100vh !important;
+  flex-direction:column;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  background-color: #f2f2f2;
+}
+
+.footer {
+  background-color: #f2f2f2;
+}

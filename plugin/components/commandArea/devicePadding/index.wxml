@@ -1,0 +1,4 @@
+  <block v-if="needPadding">
+    <view style="height: 68rpx;">
+    </view>
+  </block>

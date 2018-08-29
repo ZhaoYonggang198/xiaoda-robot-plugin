@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "list": "plugin://myPlugin/list",
+    "chat-page": "plugin://myPlugin/chat-page"
+  }
+}

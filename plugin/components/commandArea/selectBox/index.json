@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "radio-box": "../radioBox/index",
+    "checkbox-box": "../checkboxBox/index"
+  }
+}

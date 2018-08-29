@@ -1,0 +1,5 @@
+<view class="select-box {{showImage?'top_444':'top_110'}}">
+  <radio-box wx:if="{{messageAction.type==='radio'}}" list="{{messageAction}}"></radio-box>
+  <checkbox-box wx:if="{{messageAction.type==='checkbox'}}" list="{{messageAction}}"></checkbox-box>
+  <avatar-box wx:if="{{messageAction.type==='imageUploader'}}" list="{{messageAction}}"></avatar-box>
+</view>

@@ -1,0 +1,171 @@
+.divider-style {
+  background-color: #c8c7cc;
+  color: #f2f2f2;
+  font-size: 22rpx;
+}
+
+.small-font-size {
+  font-size: 28rpx;
+}
+
+.big-font-size {
+  font-size: 48rpx;
+}
+
+.middle-font-size {
+  font-size: 32rpx;
+}
+
+.tiny-font-size {
+  font-size: 26rpx;
+}
+
+.s-color {
+  color: #1cb2b9 !important
+}
+
+.s-bg-color {
+  color: #1cb2b9
+}
+
+.incoming {
+  padding: 20rpx;
+  margin-left: 20rpx;
+  border: solid #eaeaea 1rpx;
+  border-radius: 15px 15px 15px 0;
+  width: auto !important;
+  display: inline-block;
+  font-size: 28rpx;
+  max-width: 90%;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.outgoing {
+  padding: 20rpx;
+  border: solid #eaeaea 1rpx;
+  border-radius: 30rpx 30rpx 0 30rpx;
+  background-color: #a3ecf1 !important;
+  color: #000000 !important;
+  font-size: 28rpx;
+  margin-right: 10rpx;
+  text-align: left;
+  position: relative;
+}
+
+/* Bot Message Style  */
+
+.bot-message {
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.bot-message .avatar-wrapper {
+  padding: 3px 10px;
+  width: 40rpx
+}
+
+.bot-message .left-item {
+  max-width: 80%;
+  display: flex;
+  width: 100%;
+}
+
+.bot-message .content {
+  width: 100%
+}
+
+.primary-color {
+  background-color: #545a68 !important;
+  color: #ffffff !important;
+}
+
+.primary-color.dark,
+.form-control.primary-color:active {
+  background-color: #2b313d !important;
+}
+
+.primary-color.light,
+.form-control.primary-color:disabled,
+.form-control.secondary-color:disabled {
+  background-color: #818796 !important;
+}
+
+.primary-color.revert {
+  color: #545a68 !important;
+  background-color: #ffffff !important;
+}
+
+.primary-color.light.revert {
+  color: #818796 !important;
+  background-color: #ffffff !important;
+}
+
+.primary-color.dark.revert {
+  color: #2b313d !important;
+  background-color: #ffffff !important;
+}
+
+.secondary-color,
+.form-control.secondary-color.light:active {
+  background-color: #1cb2b9 !important;
+  color: #000000 !important;
+}
+
+.secondary-color.dark,
+.form-control.secondary-color:active {
+  background-color: #008289 !important;
+}
+
+.secondary-color.light {
+  background-color: #b3e5fc !important;
+}
+
+.secondary-color.revert {
+  color: #1cb2b9 !important;
+  background-color: #ffffff !important;
+}
+
+.secondary-color.light.revert {
+  color: #b3e5fc !important;
+  background-color: #ffffff !important;
+}
+
+.secondary-color.dark.revert {
+  color: #008289 !important;
+  background-color: #ffffff !important;
+}
+
+.title-bg-color {
+  background-color: #2b3343;
+  color: #ffffff;
+}
+
+.warn-color {
+  background-color: #f4511e !important;
+  color: white;
+}
+
+.warn-color.light {
+  background-color: #ff844c !important;
+}
+
+.warn-color.black {
+  background-color: #b91400 !important;
+}
+
+.big-box {
+  display: flex;
+  align-items: center;
+  padding: 20rpx 0rpx;
+  font-size: 28rpx;
+}
+
+.user-msg-box-color {
+  background-color: #a3ecf1;
+}
+
+.user-msg-box-color:active {
+  background-color: #008289;
+}
